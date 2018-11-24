@@ -13,10 +13,7 @@ pairs = (
         ("What do you mean, 'we'?",
         "Don't include me in that!",
         "I wouldn't be so sure about that.")),
-    (r'fuck (.*)',("I ain't got time for this shit", 
-        "motherfucker who do you think you're talking to",
-        "Kiss my ass with a candy bar, dickwad")),
-
+    
     (r'You should (.*)',
         ("Don't tell me what to do, buddy.",
         "Really? I should, should I?")),
