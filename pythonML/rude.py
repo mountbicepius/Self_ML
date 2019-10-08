@@ -13,7 +13,7 @@ pairs = (
         ("What do you mean, 'we'?",
         "Don't include me in that!",
         "I wouldn't be so sure about that.")),
-    
+
     (r'You should (.*)',
         ("Don't tell me what to do, buddy.",
         "Really? I should, should I?")),
