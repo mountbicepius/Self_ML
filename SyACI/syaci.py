@@ -15,6 +15,7 @@ Tags: seq2seq, NLTK , Keras
 import numpy as np
 import pandas as pd
 from nltk import word_tokenize as tokenize
+from nltk.book import *
 from urllib import request as req
 
 
@@ -23,20 +24,27 @@ class syaci(object):
 	def __init__(self, arg):
 		super(syaci, self).__init__()
 		self.arg = arg
-		setRules(self);
-		
+    
+    def execute(text):
+        return len(set(text)) / len(text)
+    pass
+
+    def setLength(count,total):
+        return count * total /100
+    pass
 	def setRules(self):
 		url = "http://www.gutenberg.org/files/2554/2554.txt"
-		response = request.urlopen(url)
+		response = req.urlopen(url)
 		raw = response.read().decode('utf8')
 		type(raw)
 		raw[:75]
 	pass
 
 	def pass_text(self, arg):
-
 		sdata = pd.read_csv()
 		for x in sdata(1,1000):
-
 			pass
 	pass
+    
+  
+    
