@@ -25,15 +25,8 @@ class syaci(object):
 		super(syaci, self).__init__()
 		self.arg = arg
     
-    def execute(text):
-        return len(set(text)) / len(text)
-    pass
-
-    def setLength(count,total):
-        return count * total /100
-    pass
 	def setRules(self):
-		url = "http://www.gutenberg.org/files/2554/2554.txt"
+		url = "https://www.gutenberg.org/cache/epub/66588/pg66588-images.html"
 		response = req.urlopen(url)
 		raw = response.read().decode('utf8')
 		type(raw)
@@ -45,6 +38,12 @@ class syaci(object):
 		for x in sdata(1,1000):
 			pass
 	pass
-    
   
+  def execute(text):
+    return len(set(text)) / len(text)
+  pass
+
+  def setLength(count,total):
+    return count * total /100
+  pass
     
