@@ -72,3 +72,5 @@ def plot_decision_regions(X, y, classifier, resolution=0.02):
 		plt.legend(loc='upper left')
 		plt.show()
 
+if __name__=="__main__":
+  plot_decision_regions(X, y, classifier, resolution=0.02)

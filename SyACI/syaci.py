@@ -31,19 +31,14 @@ class syaci(object):
 		raw = response.read().decode('utf8')
 		type(raw)
 		raw[:75]
-	pass
-
-	def pass_text(self, arg):
-		sdata = pd.read_csv()
-		for x in sdata(1,1000):
-			pass
-	pass
   
   def execute(text):
-    return len(set(text)) / len(text)
-  pass
+    print(len(set(text)) / len(text))
 
   def setLength(count,total):
     return count * total /100
-  pass
-    
+  
+  def pass_text(self, arg):
+		sdata = pd.read_csv()
+		for x in sdata(1,1000):
+      print("ok")
